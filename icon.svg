@@ -1,0 +1,29 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="512" height="512" fill="#14b8a6" rx="80"/>
+  
+  <!-- Dumbbell -->
+  <g transform="translate(256, 256)">
+    <!-- Left weight -->
+    <rect x="-200" y="-40" width="60" height="80" fill="#ffffff" rx="8"/>
+    <rect x="-210" y="-30" width="20" height="60" fill="#ffffff" rx="4"/>
+    
+    <!-- Bar -->
+    <rect x="-140" y="-15" width="280" height="30" fill="#ffffff" rx="15"/>
+    
+    <!-- Right weight -->
+    <rect x="140" y="-40" width="60" height="80" fill="#ffffff" rx="8"/>
+    <rect x="190" y="-30" width="20" height="60" fill="#ffffff" rx="4"/>
+    
+    <!-- Center grip lines -->
+    <line x1="-30" y1="-15" x2="-30" y2="15" stroke="#14b8a6" stroke-width="4"/>
+    <line x1="0" y1="-15" x2="0" y2="15" stroke="#14b8a6" stroke-width="4"/>
+    <line x1="30" y1="-15" x2="30" y2="15" stroke="#14b8a6" stroke-width="4"/>
+  </g>
+  
+  <!-- Sparkle effect -->
+  <circle cx="120" cy="120" r="8" fill="#ffffff" opacity="0.8"/>
+  <circle cx="390" cy="140" r="6" fill="#ffffff" opacity="0.8"/>
+  <circle cx="380" cy="380" r="8" fill="#ffffff" opacity="0.8"/>
+  <circle cx="130" cy="390" r="6" fill="#ffffff" opacity="0.8"/>
+</svg>
