@@ -3,16 +3,31 @@
   "short_name": "Fitness",
   "description": "Your personal fitness and diet tracker",
   "start_url": "/fitnesss/",
+  "scope": "/fitnesss/",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#14b8a6",
   "orientation": "portrait",
   "icons": [
     {
-      "src": "/fitnesss/icon.svg",
-      "sizes": "any",
-      "type": "image/svg+xml",
-      "purpose": "any maskable"
+      "src": "/fitnesss/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/fitnesss/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/fitnesss/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
     }
-  ]
+  ],
+  "categories": ["health", "fitness"],
+  "prefer_related_applications": false
 }
