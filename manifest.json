@@ -1,5 +1,5 @@
 {
-  "name": "Fitness Journey",
+  "name": "Fitness Journey - Akua & Shoyo",
   "short_name": "Fitness",
   "description": "Your personal fitness and diet tracker",
   "start_url": "/fitnesss/",
@@ -7,27 +7,37 @@
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#14b8a6",
-  "orientation": "portrait",
+  "orientation": "portrait-primary",
   "icons": [
     {
       "src": "/fitnesss/icon-192.png",
       "sizes": "192x192",
       "type": "image/png",
-      "purpose": "any"
+      "purpose": "any maskable"
     },
     {
       "src": "/fitnesss/icon-512.png",
       "sizes": "512x512",
       "type": "image/png",
-      "purpose": "any"
-    },
-    {
-      "src": "/fitnesss/icon-512.png",
-      "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "maskable"
+      "purpose": "any maskable"
     }
   ],
-  "categories": ["health", "fitness"],
-  "prefer_related_applications": false
+  "categories": ["health", "fitness", "lifestyle"],
+  "prefer_related_applications": false,
+  "shortcuts": [
+    {
+      "name": "Akua's Workout",
+      "short_name": "Akua",
+      "description": "View Akua's workout plan",
+      "url": "/fitnesss/workout/akua",
+      "icons": [{ "src": "/fitnesss/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Shoyo's Workout",
+      "short_name": "Shoyo",
+      "description": "View Shoyo's workout plan",
+      "url": "/fitnesss/workout/dheeraj",
+      "icons": [{ "src": "/fitnesss/icon-192.png", "sizes": "192x192" }]
+    }
+  ]
 }
